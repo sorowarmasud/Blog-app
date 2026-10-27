@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between">
+            <!---logo-->
+            <a href="index.html" class="flex">
+                <h2 class="text-lg font-semibold relative group overflow-hidden">
+                    Learn Coading
+                <span class="absolute w-full h-0.5 bg-blue-600 left-0 bottom-0 -translate-x-full group-hover:translate-x-0 ease-in-out duration-300"></span>
+                </h2>
+            </a>
+            <!---links-->
+            <div class="flex items-center gap-8">
+                <a href="home.html" class="text-sm font-medium hover:text-blue-600 duration-300">Home</a>
+                <a href="blog.html" class="text-sm font-medium hover:text-blue-600 duration-300">Blog</a>
+            </div>
+        </nav>
+    </header>
+    <!--Homepage Banner-->
+    <section class="bg-linear-to-r from-blue-600 to-purple-600 via-pink-800 text-white py-16">
+        <div class="max-w-6xl mx-auto px-6 text-center space-y-5">
+                 <h1 class="text-4xl md:text-5xl font-bold">Learn Coading With Us</h1>
+                <p class="text-base md:text-lg text-gray-100 max-w-2xl mx-auto">Discover the latest insights, tutorials,
+                and trend in web development, programming, and technology through our expertly crafted blog posts.
+                 </p>
+                 <a href="blog.html" class="inline-block bg-white text-purple-600 font-semibold px-8 py-2 rounded-lg hover:bg-gray-200 transition-colors shadow-lg duration-300">
+                    Explore Blogs</a>
+       </div>
+    </section>
+
+    <!--Blog Post section-->
+
+    <section class="py-16">
+        <div class="max-w-6xl mx-auto px-6 text-center ">
+            <h2 class="text-4xl font-bold text-gray-800 mb-3">
+                Latest Articles </h2>
+                <p class="text-gray-600 text-lg mb-5">Check out our most recent posts</p>
+            <div id="blog-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!--Blog cards will be inserted here by javascript-->
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8 mt-16 ">
+        <a href="https://invertotech.com/" target="_blank" 
+        class="text-center  text-gray-200 hover:text-blue-600 transition duration-300">
+            <p class=" text-sm md:text-base">&copy; 2026 InvertoTech. All rights reserved.</p>
+       </a>
+    </footer>
+     
+    
+    <script src="script.js"></script>
+</body>
+</html>
